@@ -1,0 +1,101 @@
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Custom properties */
+
+:root{
+  --light-color: #fff;
+  --light-color-alt: #afb6cd;
+  --primary-background-color: #f2f2f2;
+  --secondary-background-color: #252830;
+  --hover-light-color: var(--light-color);
+  --hover-dark-color: var(--primary-background-color);
+  --gradient-color: linear-gradient(
+      115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  --transparent-light-color: rgba(255,255,255,.05);
+  --transparent-dark-color: rgba(0,0,0,.75);
+  --font-family: 'Poppins', sans-serif;
+  --font-size-xsm: 1.2rem;
+  --font-size-sm: 1.6rem;
+  --font-size-md: 2.4rem;
+  --font-size-lg: 3rem;
+  --font-size-xl: 4rem;
+  --gap: 2rem;
+  --margin-sm: 2rem;
+  --margin-md: 3rem;
+  --item-min-height-sm: 20rem;
+  --item-min-height-md: 30rem;
+}
+
+html{
+    font-size: 62.5%;
+}  
+
+  /* base.css or styles.css */
+body {
+    background-color: white;
+    font-size: var(--font-size-sm);
+}
+
+  /* Header Style */
+  
+h1, h2, h3 {
+  font: inherit; 
+}
+
+h1 {
+  font-size: var(--font-size-lg);
+}
+  
+h2 {
+  font-size: var(--font-size-md);
+}
+  
+h3 {
+  font-size: var(--font-size-sm);
+}
+  
+  /* Paragraph Text */
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+  /* Quotes */
+blockquote {
+  font-family: 'Georgia', serif;
+  font-size: var(--font-size-sm);
+  font-style: italic;
+}
+
+/* Buttons */
+input,
+button {
+  font: inherit;
+  border: none;
+  background-color: transparent;
+}
+
+i {
+  font-size: var(--font-size-md);
+}
+  
+  
