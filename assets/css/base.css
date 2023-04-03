@@ -32,14 +32,21 @@ h1, h2, h3 {
 }
 
 h1 {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
   font-size: var(--font-size-lg);
+  letter-spacing: 2px;
 }
   
 h2 {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
   font-size: var(--font-size-md);
 }
   
 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px #f2f2f2;
   font-size: var(--font-size-sm);
 }
   
@@ -48,18 +55,27 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: var(--font-size-sm);
   line-height: 1.5;
+  text-indent: 20px;
 }
   
 a {
+  font-family: inherit;
   text-decoration: none;
+  color: orange;
+  transition: transform 0.2s ease-in-out;
 }
   
 a:hover {
   text-decoration: underline;
+  transform: scale(1.1)
 }
 
 button {
   cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
 }
 
 ul{
@@ -71,6 +87,7 @@ blockquote {
   font-family: 'Georgia', serif;
   font-size: var(--font-size-sm);
   font-style: italic;
+  font-weight: bold;
 }
 
 /* Buttons */

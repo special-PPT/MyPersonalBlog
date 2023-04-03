@@ -1,0 +1,41 @@
+
+@import url('base.css');
+/* css file for header reusable class */
+.header {
+    /* background-color: var(--primary-background-color);
+    color: var(--light-color); */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar{
+    background-color: var(--primary-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    padding: 2rem;
+}
+
+.menu{
+    color: white;
+    display: flex;
+}
+
+.menu-list{
+    color: white;
+    display: flex;
+}
+
+.menu-list li{
+    color: white;
+    padding: 1rem;
+}
+
+.subscribe-button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

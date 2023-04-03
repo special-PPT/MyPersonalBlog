@@ -1,47 +1,11 @@
 /* styles.css */
 @import url('reset.css');
 @import url('base.css');
+@import url('header.css');
+@import url('footer.css');
 /* Other imports and custom styles */
 
 /* Reusable Classes*/
-.header {
-    /* background-color: var(--primary-background-color);
-    color: var(--light-color); */
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-}
-
-.navbar{
-    background-color: var(--primary-background-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 1.5rem;
-    padding: 2rem;
-}
-
-.menu{
-    color: white;
-    display: flex;
-}
-
-.menu-list{
-    color: white;
-    display: flex;
-}
-
-.menu-list li{
-    color: white;
-    padding: 1rem;
-}
-
-.subscribe-button{
-    background-color: black;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-}
 
 .recent-blog{
     display: flex;
@@ -104,15 +68,6 @@
     padding-top: 4rem;
 }
 
-.footer{
-    background-color: var(--primary-background-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-    padding: 1rem;
-}
-
 .blog-container{
     padding-top: 5rem;
     display: grid;
@@ -150,6 +105,7 @@
 
 .author-info {
     padding: 2rem;
+    font-style: italic;
 }
 
 .article-title{
